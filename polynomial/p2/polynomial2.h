@@ -17,16 +17,7 @@ int polynomial2::getReturnValue(int x) {
 }
 
 int polynomial2::deg_f() {
-  if(a != 0){
-    return 2;
-  }
-  else if(b != 0){
-    return 1;
-  }
-  else if(c != 0){
-    return 0;
-  }
-  else{
-    return -1;
-  }
-}
+  if(a != 0) return 2;
+  else if(b != 0) return 1;
+  else if(c != 0) return 0;
+  else return -1;
